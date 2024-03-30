@@ -15,7 +15,7 @@ menu: /
             <div class="container">
                 <!--<p class="display-6 color-d">Hello, world!</p>-->
                 <h1 class="hero-title mb-4">Antonio Vargas</h1>
-                <p class="hero-subtitle"><span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+                <p class="hero-subtitle"><span class="typed" data-typed-items="Desarrollador Web, Programador, Entusiasta de la tecnología, Ciberseguridad, IA, Amante del código, Innovador tecnológico"></span></p>
                 <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
             </div>
         </div>
@@ -40,7 +40,7 @@ menu: /
             </div>
             <div class="row">
                 {% for post in site.posts limit: 3 %}
-                <div class="col-md-4">
+                <div class="col-md-4 d-flex align-items-stretch">
                     <div class="card card-blog">
                         <div class="card-img">
                             <a href="{{ post.url }}"><img src="{{ site.url }}/{% if post.image %}assets/img/{{ post.image }}{% else %}{{ site.default_post_image }}{% endif %}" 
