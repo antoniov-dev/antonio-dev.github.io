@@ -5,7 +5,10 @@ date:   2023-03-06 23:07:15 -0600
 tags: [Apache, Virtual hosts]
 menu: /blog
 ---
-Cuando se trata de alojar múltiples sitios web en un solo servidor, el uso de Virtual Hosts es una solución excelente. Con esta tecnología de alojamiento, los propietarios de sitios web pueden alojar múltiples sitios en una única partición virtual dentro del servidor físico, en lugar de tener un servidor físico dedicado para cada sitio web. Cada partición virtual cuenta con su propio nombre de dominio, configuraciones y archivos de contenido, lo que permite que los sitios web se ejecuten como si estuvieran en servidores dedicados individuales.
+Cuando se trata de alojar múltiples sitios web en un solo servidor, el uso de Virtual Hosts es una solución excelente. Con esta tecnología de alojamiento, los propietarios de sitios web pueden alojar múltiples sitios en una única partición virtual dentro del servidor físico, en lugar de tener un servidor físico dedicado para cada sitio web.
+<!--more-->
+
+Cada partición virtual cuenta con su propio nombre de dominio, configuraciones y archivos de contenido, lo que permite que los sitios web se ejecuten como si estuvieran en servidores dedicados individuales. Esto significa que cada sitio web puede tener su propio conjunto de configuraciones personalizadas, como preferencias de servidor, opciones de seguridad y otros ajustes específicos, sin interferir con los demás sitios alojados en el mismo servidor físico. 
 
 
 ## Cómo crear un Virtual Host con Apache en Ubuntu
