@@ -6,6 +6,7 @@ tags: [Blogging, Jekyll]
 menu: /blog
 ---
 Desde hace algún tiempo, había estado buscando la forma de crear un sitio web donde pudiera publicar notas personales y ejemplos de lo que iba aprendiendo en mi día a día como programador. Necesitaba encontrar una forma fácil y económica de crear y alojar un sitio web, ya que este sería un proyecto paralelo y no quería dedicarle demasiado tiempo a su establecimiento.
+<!--more-->
 
 Al comenzar a investigar al respecto, me topé con la primera elección a considerar: ¿sería un sitio estático o dinámico? La principal diferencia entre un sitio web estático y uno dinámico es la forma en que se generan y se muestran las páginas web.
 
