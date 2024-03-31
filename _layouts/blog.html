@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div class="hero hero-single route bg-image"
+    style="background-image: url({{ site.url }}/assets/img/overlay-blog-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="hero-content display-table">
+        <div class="table-cell">
+            <div class="container">
+                <h2 class="hero-title mb-4">Blog</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main id="main">
+
+    <!-- ======= Blog Single Section ======= -->
+    <section class="blog-wrapper sect-pt4" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+
+                    {{ content }}
+
+                </div>
+                <div class="col-md-4">
+                    <div class="widget-sidebar sidebar-search">
+                        <h5 class="sidebar-title">Search</h5>
+                        <div class="sidebar-content">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search for..."
+                                        aria-label="Search for...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-secondary btn-search" type="button">
+                                            <span class="bi bi-search"></span>
+                                        </button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="widget-sidebar widget-tags">
+                        <h5 class="sidebar-title">Tags</h5>
+                        <div class="sidebar-content">
+                            <ul>
+                                {% for tag in site.tags %}
+                                <li>
+                                    <a href="#">{{ tag[0] }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- End Blog Single Section -->
+
+</main><!-- End #main -->
