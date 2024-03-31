@@ -49,7 +49,7 @@ menu: /
                         <div class="card-body">
                             <div class="card-category-box">
                                 <div class="card-category">
-                                    <h6 class="category">Post</h6>
+                                    <h6 class="category">{% if post.post_category %}{{ post.post_category }}{% else %}Post{% endif %}</h6>
                                 </div>
                             </div>
                             <h3 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>

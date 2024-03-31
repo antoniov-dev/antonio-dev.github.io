@@ -4,6 +4,7 @@ title:  "¡Bienvenidos a mi nuevo blog!"
 date:   2023-02-26 22:47:09 -0600
 tags: [Blogging]
 menu: /blog
+post_category: Blogging
 ---
 Me complace presentarles mi nuevo proyecto en línea, un espacio en el que compartiré mis pensamientos, ideas y conocimientos en el mundo de la programación y la tecnología.
 

@@ -4,6 +4,7 @@ title:  "Crear un blog personal, Parte 1: Elegir el tipo de sitio (Estatico vs D
 date:   2023-02-26 23:29:00 -0600
 tags: [Blogging, Jekyll]
 menu: /blog
+post_category: Jekyll
 ---
 Desde hace algún tiempo, había estado buscando la forma de crear un sitio web donde pudiera publicar notas personales y ejemplos de lo que iba aprendiendo en mi día a día como programador. Necesitaba encontrar una forma fácil y económica de crear y alojar un sitio web, ya que este sería un proyecto paralelo y no quería dedicarle demasiado tiempo a su establecimiento.
 <!--more-->

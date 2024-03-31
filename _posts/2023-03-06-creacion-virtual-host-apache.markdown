@@ -4,6 +4,7 @@ title:  "Configuración de Virtual Hosts en Apache"
 date:   2023-03-06 23:07:15 -0600
 tags: [Apache, Virtual hosts]
 menu: /blog
+post_category: Web Development
 ---
 Cuando se trata de alojar múltiples sitios web en un solo servidor, el uso de Virtual Hosts es una solución excelente. Con esta tecnología de alojamiento, los propietarios de sitios web pueden alojar múltiples sitios en una única partición virtual dentro del servidor físico, en lugar de tener un servidor físico dedicado para cada sitio web.
 <!--more-->
